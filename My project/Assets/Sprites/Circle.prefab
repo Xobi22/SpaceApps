@@ -170,10 +170,8 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
   m_FlipX: 1
   m_FlipY: 0
-  m_DrawMode: 0
   m_DrawMode: 2
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -193,8 +191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14b8381f7708dd48ab00ff711ade81f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadH: 5
-  velocidadV: 5
   velocidadH: 9999
   velocidadV: 999
   laser: {fileID: 0}
@@ -244,7 +240,6 @@ BoxCollider2D:
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
